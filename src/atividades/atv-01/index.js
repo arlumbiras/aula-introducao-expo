@@ -7,10 +7,10 @@ function atividade01 () {
         <View style={styles.container} >
             <Text style={styles.titulo} > Atividade 1 </Text>
             <Text style={styles.texto} >
-                QUERIA MUITO UMA CERVEJA
+                AULA DE REACT NATIVE COM EXPO
             </Text>
             <Text style={styles.texto2} >
-                MAS NÃO VOU TER
+                QUERIA MUITO UMA CERVEJA
             </Text>
         </View>
     );
