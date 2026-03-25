@@ -40,8 +40,6 @@ function Atividade02() {
                 imagem={amarela}
             />
 
-
-
         </View>
     );
 }
