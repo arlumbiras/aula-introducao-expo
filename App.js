@@ -9,13 +9,14 @@ import Exemplo04 from './src/exemplos/ex-04';
 import Atividade01 from './src/atividades/atv-01';
 import Atividade02 from './src/atividades/atv-02';
 import Atividade03 from './src/atividades/atv-03';
+import Atividade04 from './src/atividades/atv-04';
 
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-       <Exemplo04/>
+       <Atividade04/>
       <StatusBar style= "auto" />
     </View>
   );
