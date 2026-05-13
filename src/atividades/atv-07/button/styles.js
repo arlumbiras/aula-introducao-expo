@@ -4,29 +4,30 @@ import { RFValue } from 'react-native-responsive-fontsize';
 
 const styles = StyleSheet.create({
     button: {
-        height: (Dimensions.get('window').height / 6) - 5,
-        width: (Dimensions.get('window').width / 4) - 7,
+        height: (Dimensions.get('window').height / 6) - 6,
+        width: (Dimensions.get('window').width / 4) - 8.5,
         padding: RFValue(10),
-        backgroundColor: '#f0f0f0',
+        backgroundColor: '#000000',
         borderWidth: RFValue(1),
-        borderColor: '#888',
+        borderColor: '#ffffff',
         justifyContent: 'center',
     },
     txtButton: {
         fontSize: RFPercentage(5),
         textAlign: 'center',
+        color: '#ffffff',
     },
     operationButton: {
-        backgroundColor: '#FA8231',
+        backgroundColor: '#ff006a',
     },
     operationTxtButton: {
-        color: '#FFF',
+        color: '#000000',
     },
     buttonDouble: {
-        width: ((Dimensions.get('window').width / 4) - 7) * 2,
+        width: ((Dimensions.get('window').width / 4) - 8.5) * 2,
     },
     buttonTriple: {
-        width: ((Dimensions.get('window').width / 4) - 7) * 3,
+        width: ((Dimensions.get('window').width / 4) - 8.5) * 3,
     },
 });
 export default styles;
